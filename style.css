@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.860);
+    background-image: url(images/top-view-fast-food-black-background-mock-up_23-2148321326.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width:1024px;
+}
+
+header {
+    background-color: rgba(207, 211, 208, 0.479);
+    height: 180px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.137);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+main {
+    height: 400px;
+    text-align: center;
+    margin-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-size: 84px;
+    color: rgba(250, 245, 245, 0.952);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: rgb(203, 207, 204);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*nav a {
+    text-decoration: none;
+}
+An alternative of this to create a class and then include all elements in that particular class. Like the below given class.*/
+
+.no-underline {
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer p {
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+} 
+
+.maps  {
+    padding-bottom: 100px;
+}
